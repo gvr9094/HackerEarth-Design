@@ -1,0 +1,191 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">);
+.container{
+    width: 60vw;
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-left:230px;
+    padding-left:20px;
+    background-color:white;
+    box-shadow:rgba(0,0,0,0.3) 0px 0px 5px;
+}
+.main{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding-top:70px;
+}
+.div1{ 
+    color:black;
+    width:60vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.div2{
+    width:30vw;
+    border-right:1px solid black ;
+    border-right-style:dotted ;
+   
+    
+   
+}
+.div3{
+    background-color:white;
+    width:28vw;
+    height:28vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ll{
+    width: 25vw;
+    height:3vh;
+    margin-bottom:20px;
+    margin-left: 55px;
+}
+.check{
+    margin-left: 55px;
+    margin-right:0px;
+    margin-bottom:30px;
+    position: relative;
+    top:2px;
+
+}
+.for{
+    margin-left:150px;
+    text-decoration:none;
+
+}
+.lb{
+    margin-left:0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.but{
+    padding-right:178px;
+    padding-left: 173px;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin-left:58px;
+    color:white;
+    background-color: #2f89fc;
+    text-decoration: none;
+}
+.fb{
+    text-decoration: none;
+    background-color:darkblue;
+    color: white;
+    width:20vw;
+    height:5vh;
+    margin-bottom:20px;
+    padding-top: 10px;
+    text-align: center;
+ }
+
+.git{
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    width:20vw;
+    height:5vh;
+    margin-bottom:20px;
+   padding-top: 10px;
+   text-align: center;
+}
+.goo{
+    text-decoration: none;
+    background-color:white;
+    border: 1px solid black;
+    color:black;
+    width:20vw;
+    height:5vh;
+    margin-bottom:20px;
+   padding-top: 10px;
+   text-align: center;
+}
+
+#sign{
+    margin-left:230px;
+    margin-top:10px;
+
+}
+.up{
+    text-decoration: none;
+
+}
+
+   @media screen and ( max-width:880px){
+    .container{
+        width:80vw;
+        height:80vh;
+        display: flex;
+        flex-direction:column;
+        margin-top:50px;
+        margin-left:30px;
+    }
+   .main{
+       display: flex;
+       flex-direction: column;
+    }
+    .div1{
+        padding-top:10px;
+        padding-left:50px;
+        height: 0px;
+    }
+    .div2{
+        margin-top: 0px;
+        width:50vw;
+        height:35vh;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .ll{
+        padding-left:10px;
+        margin-left: 0px;
+        width:59vw;
+    }
+    
+    #sign{
+        margin-left:0px;
+    }
+    .but{
+        padding-left:140px;
+        padding-right:140px;
+        padding-top:8px;
+        padding-bottom:8px;
+        margin-left: 0px;
+       
+    }
+    .check{
+        margin-top:0px;
+        margin-left:-60px;
+        }
+    .for{
+        width: 40px;
+        margin-left:20px;
+        position: relative;
+        left:60px;
+    }
+    .div3{
+        width:0vw;
+        height:35vh;
+       }
+       .fb,.git,.goo{
+           width:60vw;
+       }
+       .left{
+           margin-top: 0px;
+       
+    }
+}
